@@ -18,7 +18,7 @@ import {
 } from './utils/d3';
 import { getDimensions, getViewBox } from './utils/dimensions';
 import nodeToHTML from './utils/nodeToHTML';
-import '../sass/main.css';
+import '../styles/mindmap.css';
 
 
 export default class MindMap extends Component {

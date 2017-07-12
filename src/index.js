@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { ScratchPad } from './components/ScratchPad'
+import { App } from './App'
 
 ReactDOM.render(
-  <ScratchPad />,
+  <App />,
   document.getElementById('root')
 );

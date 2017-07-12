@@ -8,7 +8,7 @@ export function App() {
       connections={connections}
       nodes={nodes}
       subnodes={subnodes}
-      editable={true}
+      editable={false}
     />
   );
 }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types'
 import {
   forceCollide,
@@ -21,7 +21,7 @@ import nodeToHTML from './utils/nodeToHTML';
 import '../styles/mindmap.css';
 
 
-export default class MindMap extends Component {
+export default class MindMap extends React.Component {
   constructor(props) {
     super(props);
 

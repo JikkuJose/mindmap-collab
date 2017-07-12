@@ -1,14 +1,11 @@
 import React from 'react'
-import MindMap from 'react-mindmap'
-import { nodes, subnodes, connections } from '../data/sample.json'
+
+import { Map } from './components/Map'
 
 export function App() {
   return(
-    <MindMap
-      connections={connections}
-      nodes={nodes}
-      subnodes={subnodes}
-      editable={false}
-    />
+    <div>
+      <Map></Map>
+    </div>
   );
 }

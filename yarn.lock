@@ -5230,7 +5230,7 @@ react-dev-utils@^3.0.0, react-dev-utils@^3.0.2:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-"react-dom@0.14.x || 15.* || ^15.0.0 || ^16.0.0-alpha", react-dom@^15.6.1:
+"react-dom@0.14.x || 15.* || ^15.0.0 || ^16.0.0-alpha", react-dom@^15.5.4, react-dom@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.1.tgz#2cb0ed4191038e53c209eb3a79a23e2a4cf99470"
   dependencies:
@@ -5265,6 +5265,15 @@ react-loader@^2.4.2:
     create-react-class "^15.5.2"
     prop-types "^15.5.8"
     spin.js "2.x"
+
+"react-mindmap@https://github.com/JikkuJose/react-mindmap.git":
+  version "2.0.10"
+  resolved "https://github.com/JikkuJose/react-mindmap.git#f7b6a75f97473d5aec1c12f57197eda7caa3f686"
+  dependencies:
+    d3 "^4.9.1"
+    fs-walk "0.0.1"
+    react "^15.5.4"
+    react-dom "^15.5.4"
 
 react-redux@^5.0.5:
   version "5.0.5"
@@ -5337,7 +5346,7 @@ react-splitter-layout@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/react-splitter-layout/-/react-splitter-layout-0.2.1.tgz#77099ab5e80b0fad3e0e8dc31dd4a93aa26441fa"
 
-react@^15.6.1:
+react@^15.5.4, react@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
   dependencies:

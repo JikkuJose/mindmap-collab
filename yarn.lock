@@ -5239,9 +5239,9 @@ react-loader@^2.4.2:
     prop-types "^15.5.8"
     spin.js "2.x"
 
-react-mindmap@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/react-mindmap/-/react-mindmap-2.0.6.tgz#8591787546afca9f763ae5eed59ada339a442309"
+react-mindmap@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/react-mindmap/-/react-mindmap-2.0.8.tgz#59148bfaf6ffa79768c59cc136cc5ac25c4d8afa"
   dependencies:
     d3 "^4.9.1"
     fs-walk "0.0.1"
